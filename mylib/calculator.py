@@ -25,7 +25,7 @@ def create_histogram(df, col):
     plt.xlabel(col)
     plt.ylabel('Frequency')
     plt.title('Histogram of {}'.format(col))
-    plt.show()
+    plt.savefig("lol.png")
     
 def grab_median(df, col):
     return df[col].median()
@@ -35,5 +35,11 @@ def grab_STD(df, col):
 
 def grab_max(df, col):
     return max(df[col])
+
+def save_to_md():
+    with open("test.md", "a") as file:
+        file.write("test")
+        
+
 
 

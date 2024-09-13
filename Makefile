@@ -27,6 +27,7 @@ generate-n-push:
 	git config --local user.email "cpyang@umich.edu"
 	git config --local user.name "Peter Yang"
 	git add .
-	git 
+	git commit -m "Updated stuff"
+	git push
 		
-all: install lint test format deploy
+all: install lint test format deploy generate-n-push
