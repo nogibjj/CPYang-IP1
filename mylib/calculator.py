@@ -36,10 +36,7 @@ def grab_STD(df, col):
 def grab_max(df, col):
     return max(df[col])
 
-def save_to_md():
-    with open("test.md", "a") as file:
-        file.write("![]")
-        
+
 
 
 
