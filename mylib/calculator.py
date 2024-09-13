@@ -38,7 +38,7 @@ def grab_max(df, col):
 
 def save_to_md():
     with open("test.md", "a") as file:
-        file.write("test")
+        file.write("![]")
         
 
 
