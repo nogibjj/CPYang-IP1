@@ -21,5 +21,12 @@ refactor: format lint
 
 deploy:
 	#deploy goes here
+
+generate-n-push:
+	python main.py
+	git config --local user.email "cpyang@umich.edu"
+	git config --local user.name "Peter Yang"
+	git add .
+	git 
 		
 all: install lint test format deploy

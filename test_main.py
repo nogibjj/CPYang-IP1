@@ -3,12 +3,7 @@ Test goes here
 
 """
 
-from mylib.calculator import add
+from main import g_describe
 
-def g_describe():
-    g = load_dataset()
-    
-    
-    
 def test_add():
-    assert add(1, 2) == 3
+    assert len(g_describe()) > 1
