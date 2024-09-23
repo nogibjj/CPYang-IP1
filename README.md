@@ -1,4 +1,11 @@
 [![Format](https://github.com/nogibjj/CPYang-IP1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/CPYang-IP1/actions/workflows/format.yml)
+
+[![Install](https://github.com/nogibjj/CPYang-IP1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/CPYang-IP1/actions/workflows/install.yml)
+
+[![Lint](https://github.com/nogibjj/CPYang-IP1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/CPYang-IP1/actions/workflows/lint.yml)
+
+[![Test](https://github.com/nogibjj/CPYang-IP1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/CPYang-IP1/actions/workflows/test.yml)
+
 ## Houseprice Analysis Project
 
 This project provides some barebones analysis framework for any dataframe, using the Californian House Price data as an example.
@@ -6,6 +13,9 @@ This project provides some barebones analysis framework for any dataframe, using
 Simply run `make all` to run the analysis and generate the reports. 
 
 
+## Demo
+
+Demo Video is here: 
 
 1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
 
