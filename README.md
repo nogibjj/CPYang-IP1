@@ -17,28 +17,16 @@ Simply run `make all` to run the analysis and generate the reports.
 
 Demo Video is here: 
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
+## Project Structure:
+- Makefile: Contains commands to build, test, deploy and generates the report in the project
+- main.py contains the main analysis that creates the figures and analysis
+- requirements.txt contains the main libraries requirements
+- test_main.py contains the tests for the main functions
+- test_lib.py contains the tests for the helper functions in mylib
+- train.csv is the main data we're using here
+- .devcontainer contains the Dockerfile and the devcontainer.json file for container environment
 
-Things included are:
-
-* `Makefile`
-
-* `Pytest`
-
-* `pandas`
-
-Run `make lint` which runs `ruff check`.  You can find out more info on [Ruff here](https://github.com/astral-sh/ruff).
-
-* `Dockerfile`
-
-* `GitHub copilot`
-
-* `jupyter` and `ipython` 
-
-* A base set of libraries for devops and web
-
-* `githubactions`
-
-
+## Analysis
+ ![Figure](hist.png)
 
 

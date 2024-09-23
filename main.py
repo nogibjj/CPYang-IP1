@@ -19,4 +19,6 @@ if __name__ == "__main__":
     df = g_describe()
     print(df)
     create_histogram(df, "id")
+    create_histogram(df, "HouseAge")
+    create_histogram(df, "Population")
     save_to_md()
