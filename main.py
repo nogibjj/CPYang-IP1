@@ -12,7 +12,7 @@ def g_describe():
 def save_to_md():
     with open("test.md", "w") as file:
         file.write("# This is a sample report ")
-        file.write("![Figure](lol.png)")
+        file.write("![Figure](hist.png)")
 
 
 if __name__ == "__main__":

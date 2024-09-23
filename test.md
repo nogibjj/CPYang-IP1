@@ -1,1 +1,1 @@
-# This is a sample report ![Figure](lol.png)
+# This is a sample report ![Figure](hist.png)

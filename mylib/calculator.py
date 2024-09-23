@@ -25,7 +25,7 @@ def create_histogram(df, col):
     plt.xlabel(col)
     plt.ylabel('Frequency')
     plt.title('Histogram of {}'.format(col))
-    plt.savefig("lol.png")
+    plt.savefig("hist.png")
     
 def grab_median(df, col):
     return df[col].median()
