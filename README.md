@@ -27,6 +27,13 @@ Demo Video is here:
 - .devcontainer contains the Dockerfile and the devcontainer.json file for container environment
 
 ## Analysis
+
+We can see the distribution of id's in the housing data
  ![Figure](hist.png)
+
+There's also a histogram of the age of the houses.
+
+![Age Histogram](hist_HouseAge.png)
+
 
 

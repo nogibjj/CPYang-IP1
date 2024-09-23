@@ -19,7 +19,7 @@ def grab_mean(df, col):
 def create_histogram(df, col):
     
     # Plotting a basic histogram
-    plt.hist(df[col],  color='skyblue', edgecolor='black')
+    plt.hist(df[col], bins=20,  color='skyblue', edgecolor='black')
     
     # Adding labels and title
     plt.xlabel(col)
