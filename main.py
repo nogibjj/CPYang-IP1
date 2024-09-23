@@ -9,9 +9,7 @@ def g_describe():
     return g.describe()
 
 
-def save_to_md():
-
-    sample_string = """
+sample_string = """
     # This is a sample report 
     
     ## Behold, analysis
@@ -27,6 +25,9 @@ def save_to_md():
 
     ![Age Histogram](hist_Population.png)
     """
+
+
+def save_to_md():
     with open("test.md", "w") as file:
         file.write(sample_string)
 
