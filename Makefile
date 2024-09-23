@@ -22,6 +22,7 @@ refactor: format lint
 
 deploy:
 	#deploy goes here
+	python main.py
 
 generate-n-push:
 	python main.py
