@@ -1,1 +1,2 @@
-# This is a sample report ![Figure](hist.png)
+# This is a sample report 
+ ![Figure](hist.png)

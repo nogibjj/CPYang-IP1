@@ -26,10 +26,14 @@ deploy:
 
 generate-n-push:
 	python main.py
-	git config --local user.email "cpyang@umich.edu"
-	git config --local user.name "Peter Yang"
-	git add .
-	git commit -m "Updated stuff"
-	git push
+	@if [ -n "$$(git status --porcelain)" ]; then \
+		git config --global user.email "cpyang@umich.edu"; \
+		git config --global user.name "Peter Yang"; \
+		git add .; \
+		git commit -m "Updates"; \
+		git push; \
+	else \
+		echo "No changes to commit. Skipping commit and push."; \
+	fi
 		
 all: install lint test format deploy generate-n-push
